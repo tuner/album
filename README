@@ -1,0 +1,29 @@
+Really Simple Album Script
+==========================
+
+(c) Kari Lavikka
+
+Most picture galleries are quite complex and require components like PHP
+and MySQL. I wanted something really simple that just creates thumbnails
+and a static HTML page with some pretty javascript eye candy. Here it is.
+
+An example of an album created with this script:
+http://tuner.bdb.fi/gfx/valokuvat/syksyrapsyja/
+
+Usage:
+
+1) As this is just my personal quick hack, you must first edit thumbs.sh
+   and configure hard coded settings like copyright notice and thumbnail size.
+
+2) Ensure that ImageMagick can be found from the path
+
+3) Run the script in a directory that contains your pictures. An index.html and
+   thumbs/ directory with new thumbnails will be created. After that, copy
+   thumbs.css and thumbs.js somewhere and ensure that paths are correct in
+   the index.html.
+
+
+TODO:
+* A configuration file instead of hard coded values
+* Some error checking
+* Intelligent handling for piture captions

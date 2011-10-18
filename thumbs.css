@@ -1,0 +1,171 @@
+body {
+/*	background-color: #406080; */
+	background-color: #142030;
+	margin: 0;
+	padding: 0;
+
+	color: white;
+
+	font-family: Sans-serif;
+}
+
+h1 {
+	color: #E0E0E0;
+	margin: 0;
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+	font-size: 24px;
+	font-family: Trebuchet MS, Sans-Serif;
+}
+
+p {
+	margin-left: 30px;
+	font-size: 13px;
+}
+
+p.copy, p#copy {
+	color: #A0A0A0;
+}
+
+a img {
+	border: 1px solid black;
+	background-color: #142030;
+	margin: 4px;
+}
+
+a {
+	color: white;
+	text-decoration: underline;
+}
+
+div.images {
+	padding: 30px 70px 30px 70px;
+	text-align: center;
+	position: relative;
+	background-color: #101a27;
+}
+#thumbs {
+	margin: 0;
+	position: relative;
+	background-color: #101a27;
+}
+
+#thumbs ul {
+	display: block;
+	margin: 0;
+	padding: 30px 70px 30px 70px;
+	text-align: center;
+	list-style: none;
+}
+
+#thumbs li {
+	display: inline;
+/*	float: left; */
+	vertical-align: midle;
+}
+
+
+#pictureFrame {
+	background: black;
+	border: 25px solid black;
+	position: absolute;
+	top: 0px;
+	margin-bottom: 50px;
+}
+
+#pictureFrame {
+	font-family: Verdana, Sans-Serif;
+}
+
+#pictureFrame #number {
+	margin: 0;
+	display: block;
+	padding: 5px 0 0 0;
+	color: #606060;
+	font-size: 9px;
+	position: absolute;
+	left: 0px;
+	top: -24px;
+}
+
+#pictureFrame #close {
+	display: block;
+	padding: 5px 0 0 10px;
+	background: black;
+	color: #606060;
+	font-size: 9px;
+	position: absolute;
+	right: 0px;
+	top: -24px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#pictureFrame #caption {
+	color: #B0B0B0;
+	font-size: 11px;
+	text-align: center;
+	margin: 0;
+	margin-top: 10px;
+	margin-bottom: -12px;
+	padding: 0;
+}
+
+#shader {
+	visibility: hidden;
+	background-color: #101a27;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.naviButton {
+	position: absolute;
+	background-image: url("/buttonbg.png");
+	background-repeat: no-repeat;
+	display: block;
+	height: 62px;
+	width: 62px;
+
+	color: #E0E0E0;
+	text-decoration: none;
+	font-family: Arial, Sans-Serif;
+	font-size: 10px;
+
+	cursor: pointer;
+}
+
+.naviText {
+	text-align: center;
+}
+
+.naviImage {
+	width: 29px;
+	height: 21px;
+	margin-top: 12px;
+	margin-bottom: 7px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#naviLeft {
+	background-position: center right; 
+	left: 0;
+}
+
+#naviLeft .naviImage {
+	background-image: url("/button_left.png");
+}
+
+#naviRight {
+	background-position: center left; 
+	right: 0;
+}
+
+#naviRight .naviImage {
+	background-image: url("/button_right.png");
+}
+
+
